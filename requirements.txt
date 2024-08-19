@@ -1,0 +1,5 @@
+langchain
+gradio==3.14.0 
+colorama
+streamlit
+requests

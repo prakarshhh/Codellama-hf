@@ -1,0 +1,78 @@
+prompt,output,flag,username,timestamp
+Fibonacci python,,,,2024-08-19 11:31:45.815080
+"code fibonacci in python
+","def fib(n):
+   if n <= 1:
+      return n
+   else:
+      return fib(n-1) + fib(n-2)
+
+print(fib(5)) # Output : 8
+
+Explanation:
+
+The Fibonacci sequence is a series of numbers where each number is the sum of the two preceding numbers, starting from 0 and 1. The first few terms of the sequence are 0, 1, 1, 2, 3, 5, 8, 13, and so on.
+
+In this code snippet, we define a function called fib that takes an integer parameter n. The function calculates the nth Fibonacci number using the recursive formula: fn = fn-1 + fn-2, where fn is the nth term of the sequence and fn-1 and fn-2 are the (n-1)st and (n-2)nd terms, respectively.
+
+The function has two base cases: if n is less than or equal to 1, return n because the first two terms of the sequence are 0 and 1. Otherwise, recurse on fn-1 and fn-2 and add their results together.
+
+When we call the function with parameter n=5, it returns the 5th Fibonacci number (8).",,,2024-08-19 11:55:42.933064
+"code fibonacci in python
+","def fib(n):
+   if n <= 1:
+      return n
+   else:
+      return fib(n-1) + fib(n-2)
+
+print(fib(5)) # Output : 8
+
+Explanation:
+
+The Fibonacci sequence is a series of numbers where each number is the sum of the two preceding numbers, starting from 0 and 1. The first few terms of the sequence are 0, 1, 1, 2, 3, 5, 8, 13, and so on.
+
+In this code snippet, we define a function called fib that takes an integer parameter n. The function calculates the nth Fibonacci number using the recursive formula: fn = fn-1 + fn-2, where fn is the nth term of the sequence and fn-1 and fn-2 are the (n-1)st and (n-2)nd terms, respectively.
+
+The function has two base cases: if n is less than or equal to 1, return n because the first two terms of the sequence are 0 and 1. Otherwise, recurse on fn-1 and fn-2 and add their results together.
+
+When we call the function with parameter n=5, it returns the 5th Fibonacci number (8).",,,2024-08-19 11:55:44.533032
+"code fibonacci in python
+","def fib(n):
+   if n <= 1:
+      return n
+   else:
+      return fib(n-1) + fib(n-2)
+
+print(fib(5)) # Output : 8
+
+Explanation:
+
+The Fibonacci sequence is a series of numbers where each number is the sum of the two preceding numbers, starting from 0 and 1. The first few terms of the sequence are 0, 1, 1, 2, 3, 5, 8, 13, and so on.
+
+In this code snippet, we define a function called fib that takes an integer parameter n. The function calculates the nth Fibonacci number using the recursive formula: fn = fn-1 + fn-2, where fn is the nth term of the sequence and fn-1 and fn-2 are the (n-1)st and (n-2)nd terms, respectively.
+
+The function has two base cases: if n is less than or equal to 1, return n because the first two terms of the sequence are 0 and 1. Otherwise, recurse on fn-1 and fn-2 and add their results together.
+
+When we call the function with parameter n=5, it returns the 5th Fibonacci number (8).",,,2024-08-19 11:55:44.659707
+give me the code for factorial in python,"'
+The code for Fibonacci series in Python is as follows:
+```
+def fib(n):
+  if n <= 1:
+    return n
+  else:
+    return fib(n-1) + fib(n-2)
+```
+This function uses the recurrence relation for Fibonacci sequence and returns the `n`-th term of the series.
+
+The code for factorial in Python is as follows:
+```
+def factorial(n):
+  if n <= 1:
+    return 1
+  else:
+    return n * factorial(n-1)
+```
+This function uses the recursive definition of a factorial and returns the value of `n!`.",,,2024-08-19 11:58:10.766041
+give me the code for fibonacci series in python ,,,,2024-08-19 12:01:43.861293
+give me the code for fibonacci series in python ,,,,2024-08-19 12:01:44.027389
